@@ -106,13 +106,13 @@ nav.show{
 /**main stuff tag**/
     h1{ 
         font-size:1.5rem;
-        color: var(--color-secondary);
+        color: var(--color-gray-80);
         font-weight:500;
         margin-left:10px;
     }
 
     p{
-        color: var(--color-primary);
+        color: var(--color-gray-60);
         }
 
     .sbs section{
