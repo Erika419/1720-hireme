@@ -148,7 +148,7 @@ nav.show{
 
     /**Form Layout tag**/
     Form{
-        margin: 1 rem 10px;
+        margin: 1rem 10px;
         label{
             display: block;
             font-size: 0.7rem;
@@ -167,13 +167,16 @@ nav.show{
             width:90%;
             &::placeholder{color: var(--color-mygrey-30)}
         }
+
         input:required{
         border-left-color: var(--color-primary);
         }
+
         input:focus{
         border-left-color: var(--color-secondary);
         outline: none;
         }
+        
         input:required:valid{
         border-left-color: var(--color-secondary);
         }
