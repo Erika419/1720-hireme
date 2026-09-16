@@ -83,25 +83,6 @@ nav.show{
     display: block;
 }
 
-/**Hamburger Stuff tag**/
-.hamburger{
-    background: none;
-    border:none;
-    color:#232323;
-    cursor: pointer;
-    font-size: 2rem;
-    font-family: Verdana;
-}
-
-.hamburger::before{
-    content: "\2630";
-
-}
-
-.hamburger.show::before{
-    content: "\00D7";
-
-}
 
 /**main stuff tag**/
     h1{ 
